@@ -1,0 +1,123 @@
+/* General Styles */
+.homepage {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Section */
+  .header-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #343a40;
+    color: white;
+  }
+  .header-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  .header-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  .learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Features Section */
+  .features-section {
+    padding: 40px 20px;
+  }
+  .features-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  .feature-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .feature-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .feature-item h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+  }
+  .icon-music,
+  .icon-mic,
+  .icon-trending {
+    font-size: 3rem;
+    color: #007bff;
+  }
+  .radio-section {
+    margin: 15px 0;
+  }
+  .feature-btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .feature-btn:hover {
+    background-color: #0056b3;
+  }
+  .link-btn {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Call-to-Action Section */
+  .cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f1f1f1;
+  }
+  .cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  .signup-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .signup-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #343a40;
+    color: white;
+  }
+  .footer p {
+    margin: 0;
+  }
+  

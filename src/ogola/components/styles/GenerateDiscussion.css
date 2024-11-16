@@ -1,0 +1,126 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+  
+  /* Container Styling */
+  .generate-discussion-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+  
+  /* Heading Styling */
+  .heading {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+  /* Form Styling */
+  .discussion-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px;
+}
+  
+  /* Label Styling */
+  .label {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 5px;
+    display: block;
+}
+  
+  /* Input Field Styling */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+  
+  .input-field:focus {
+    border-color: #3498db;
+    outline: none;
+}
+  
+  /* Button Styling */
+  .generate-button, .download-button {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+  
+  .generate-button:hover, .download-button:hover {
+    background-color: #2980b9;
+}
+  
+  /* Error Message Styling */
+  .error-message {
+    color: #e74c3c;
+    font-size: 1.1em;
+    margin-top: 20px;
+    text-align: center;
+}
+  
+  /* Discussion Result Styling */
+  .discussion-result {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+  
+  .result-heading {
+    font-size: 1.8em;
+    color: #2c3e50;
+}
+  
+  .discussion-text {
+    font-size: 1.2em;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+  
+  /* Responsive Design for Mobile */
+@media (max-width: 600px) {
+    .heading {
+      font-size: 2em;
+    }
+  
+    .generate-button, .download-button {
+      width: 100%;
+      font-size: 1.1em;
+    }
+}
+  

@@ -1,0 +1,68 @@
+/* General container styling */
+.trending-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f6f9;
+    min-height: 100vh;
+  }
+  
+  /* Title styling */
+  .trending-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* List container for trending topics */
+  .trending-topics-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling for individual topic cards */
+  .topic-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover effect for cards */
+  .topic-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Topic name styling */
+  .topic-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2a7fff;
+    margin-bottom: 10px;
+  }
+  
+  /* Summary styling */
+  .topic-summary {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  /* Tweet volume styling */
+  .tweet-volume {
+    font-size: 1rem;
+    color: #ff6f61;
+    font-weight: bold;
+  }
+  
